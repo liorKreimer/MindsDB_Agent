@@ -105,7 +105,7 @@ FROM defense_insights
 WHERE question = 'Which publisher appears most frequently?';
 
 
-##### Or in the Agent chat tab
+##### Or ask in the Agent chat tab
 ---
 
 ## 6) 🧪 Tests
