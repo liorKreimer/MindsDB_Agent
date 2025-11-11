@@ -1,0 +1,18 @@
+CREATE DATABASE articles_db
+WITH ENGINE = "duckdb"
+PARAMETERS = {
+  "database": "/mnt/data/articles.duckdb"
+};
+
+
+CREATE AGENT defense_insights
+USING
+  model = {
+    "provider": "google",
+    "model_name": "gemini-2.5-flash",
+    "api_key": "AIzaSyComfCzHFs-S0RaaTbxSBYmcas6MhKNh3A"
+  },
+  data = {
+    "tables": ["articles_db.articles"]
+  },
+  prompt_template = 'You are an OSINT defense analyst. Use only the articles_view table. When answering, retrieve relevant entries and synthesize insights. If answer not found, say "I cannot answer this based on the available articles."';

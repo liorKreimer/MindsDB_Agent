@@ -1,0 +1,10 @@
+pandas
+numpy
+streamlit
+nltk
+wordcloud
+langdetect
+transformers
+torch
+sqlalchemy
+duckdb

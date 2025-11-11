@@ -1,0 +1,10 @@
+services:
+  mindsdb:
+    image: mindsdb/mindsdb:latest
+    container_name: mindsdb
+    ports:
+      - "47334:47334"
+      - "47335:47335"
+    volumes:
+      - ./mindsdb_data:/var/lib/mindsdb
+      - ../db/articles.duckdb:/mnt/data/articles.duckdb
