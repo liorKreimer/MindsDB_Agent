@@ -59,10 +59,11 @@ docker compose up -d
 Open UI →
 http://localhost:47334
 
+---
+
 ##### Create Database Connection in MindsDB
 
 ###### Paste into MindsDB SQL Editor:
----
 
 CREATE DATABASE articles_db
 
@@ -76,6 +77,8 @@ PARAMETERS = {
 
 ---
 ##### Create the AI Agent
+
+###### Paste into MindsDB SQL Editor:
 
 CREATE AGENT defense_insights
 
