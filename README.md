@@ -34,11 +34,23 @@ python etl/load_to_sqlite.py
 
 python SQLlite_To_Duckdb.py
 
-## 4) 📊 Run the Analytical Dashboard
+## 4) 🧪 Tests
+
+#### Run:
+
+pytest -q
+
+## 5) 🗄 Database Schema check
+
+python SQL_creation.py
+
+## 6) 📊 Run the Analytical Dashboard
+
 streamlit run dashboard/app.py
 
-## 5) 🧠 MindsDB - AI Agent for Natural Language Querying 
-##### Start MindsDB in Docker
+## 7) 🧠 MindsDB - AI Agent for Natural Language Querying 
+
+##### Start MindsDB using Docker 
 
 cd mindsdb_local
 
@@ -108,14 +120,7 @@ WHERE question = 'Which publisher appears most frequently?';
 ##### Or ask in the Agent chat tab
 ---
 
-## 6) 🧪 Tests
-#### Run:
 
-pytest -q
-
-## 7) 🗄 Database Schema
-
-python SQL_creation.py
 
 
 
