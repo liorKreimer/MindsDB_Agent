@@ -50,6 +50,7 @@ http://localhost:47334
 ##### Create Database Connection in MindsDB
 
 ###### Paste into MindsDB SQL Editor:
+---
 
 CREATE DATABASE articles_db
 
