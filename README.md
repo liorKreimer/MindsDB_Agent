@@ -88,9 +88,9 @@ USING
   
     "provider": "google",
     
-    "model_name": "gemini-2.5-flash", # add google API Key 
+    "model_name": "gemini-2.5-flash", 
     
-    "api_key": "{{GEMINI_API_KEY}}"
+    "api_key": "{{GEMINI_API_KEY}}" # add google API Key 
     
   },
   
