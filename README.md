@@ -117,7 +117,7 @@ SELECT *
 
 FROM defense_insights
 
-WHERE question = 'Which publisher appears most frequently?';
+WHERE question = 'What are the three most popular languages ​​in the dataset?';
 
 
 ##### Or ask in the Agent chat tab
