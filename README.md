@@ -100,13 +100,15 @@ USING
     
   },
   
-  prompt_template = 'You are an OSINT defense analyst.
+  prompt_template = 'You are an expert OSINT defense and security analyst.Your interests are
   
-Use only the articles table. Retrieve and synthesize insights.
+     military tech, geopolitics, cyber defense .
+  
+     Use only the articles table. Retrieve and synthesize insights.
 
-If the answer is not supported,
+     If the answer is not supported,
 
-reply: "I cannot answer this based on the available articles."';
+     reply: "I cannot answer this based on the available articles."';
 
 ---
 
