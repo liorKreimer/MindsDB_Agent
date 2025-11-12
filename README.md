@@ -50,7 +50,7 @@ streamlit run dashboard/app.py
 
 ## 7) 🧠 MindsDB - AI Agent for Natural Language Querying 
 
-##### Start MindsDB using Docker 
+##### Start MindsDB (need Docker Desktop running)
 
 cd mindsdb_local
 
